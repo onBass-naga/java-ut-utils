@@ -84,7 +84,7 @@ public class MethodInvoker {
      * @param type 戻り値の型
      * @param <E> 型パラメータ
      * @return 指定した型にキャストした戻り値
-     * @throws RuntimeException 例外はすべて{@code RuntimeException}にラップして投げます
+     * @throws RuntimeException 例外はすべて{@link RuntimeException}にラップして投げます
      */
     @SuppressWarnings("unchecked")
     public <E> E invokeAndReturn(Class<E> type) {
